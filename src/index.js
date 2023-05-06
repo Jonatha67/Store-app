@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { configureStore } from '@reduxjs/toolkit';
 import cartReducer from './features/cartSlice';
 import { Provider } from 'react-redux';
-
+import Footer from './Components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const store = configureStore ({

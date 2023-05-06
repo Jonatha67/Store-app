@@ -4,6 +4,7 @@ import { incrementQuantity, decrementQuantity, clearCart } from "../features/car
 import { useDispatch } from "react-redux";
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import { toast } from "react-toastify";
+import Footer from "./Footer";
 
 const Cart = () => {
 
